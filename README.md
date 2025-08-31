@@ -3,49 +3,9 @@
 2024-01-12 ~ 진행중
 
 ## 0. 만든이 및 이미지 저작권
-<div align## 3. 프로젝트 구조
-```
-Focus-on-Time/
-├── 📄 manifest.json             # Chrome 확장 프로그램 설정 파일
-├── 📄 popup.html               # 확장 프로그램 팝업 메인 화면
-├── 📄 background.js            # 백그라운드 서비스 워커
-├── 📄 styles.css               # 메인 스타일시트
-├── 📄 data.json                # 설정 및 데이터 저장 파일 (집중모드 텍스트 변경 설정 포함)
-│
-├── 📂 src/
-│   └── 📄 popup.js             # 팝업 메인 로직 및 타이머 기능
-│
-├── 📂 components/              # 기능별 컴포넌트 모듈
-│   ├── 📂 todo/
-│   │   └── 📄 todo.js          # TODO 리스트 기능
-│   ├── 📂 noise/
-│   │   ├── 📄 noise.js         # 백색소음 메인 로직
-│   │   ├── 📄 pink-noise-processor.js    # 핑크 노이즈 처리
-│   │   └── 📄 brown-noise-processor.js   # 브라운 노이즈 처리
-│   ├── 📂 chatbot/
-│   │   ├── 📄 chatbot.js       # AI 챗봇 로직 및 API 통신
-│   │   ├── 📄 chatbot.css      # 챗봇 스타일
-│   │   └── 📄 chatbot_layout.html       # 챗봇 레이아웃
-│   └── 📂 imageChanger/
-│       └── 📄 changeimg.js     # 집중모드 이미지 변경 기능
-│
-└── 📂 assets/                  # 리소스 파일
-    ├── 📂 Audio/
-    │   └── 📄 alarm.mp3        # 타이머 알람 소리
-    ├── 📂 images/              # 집중모드용 이미지들
-    │   ├── 📄 1.png
-    │   ├── 📄 2.png
-    │   ├── 📄 3.png
-    │   └── 📄 4.png
-    └── 📂 Pic/                 # 아이콘 및 UI 이미지
-        ├── 📄 icon.png         # 메인 아이콘
-        ├── 📄 icon16.png       # 16x16 아이콘
-        ├── 📄 icon48.png       # 48x48 아이콘
-        ├── 📄 icon128.png      # 128x128 아이콘
-        ├── 📄 icon256.png      # 256x256 아이콘
-        ├── 📄 icon512.png      # 512x512 아이콘
-        └── 📄 ... (기타 UI 이미지들)
-```<img src="https://github.com/kod0406.png" width="70%"> |
+<div align="center">
+
+| <img src="https://github.com/kod0406.png" width="70%"> |
 | --- |
 | [김재현](https://github.com/kod0406) |
 
